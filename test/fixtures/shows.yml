@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  show_date: 2013-01-21 14:17:20
+  cover: MyString
+  venue: MyString
+  link: MyString
+
+two:
+  name: MyString
+  show_date: 2013-01-21 14:17:20
+  cover: MyString
+  venue: MyString
+  link: MyString
