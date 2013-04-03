@@ -6,6 +6,8 @@ gem 'rails', '3.2.6'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'mechanize'
+gem 'awesome_print'
 
 gem 'json'
 
@@ -41,3 +43,8 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug'
+
+group :test, :development do
+  gem 'rspec-rails', '~> 2.0'
+  gem 'debugger'
+end
