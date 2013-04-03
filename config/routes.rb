@@ -1,4 +1,5 @@
 Imnotyou::Application.routes.draw do
+  match 'shows/generate_shows' => 'shows#generate_shows'
   resources :shows
 
   # The priority is based upon order of creation:

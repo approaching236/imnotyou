@@ -10,6 +10,14 @@ class ShowsController < ApplicationController
     end
   end
 
+  # GET /generate_shows
+  def generate_shows
+    crawler = Crawler.new([:casbah])
+    crawler.run!
+    
+    redirect_to shows_url, notice: 'Shows were generated'
+  end
+
   # GET /shows/1
   # GET /shows/1.json
   def show
